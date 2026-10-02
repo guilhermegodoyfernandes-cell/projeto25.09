@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Logo de auto peças</title>
+  <desc id="desc">Logo moderna em estilo de auto peças com tons azul, laranja e cinza.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="50%" stop-color="#132C4A"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="orangeMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDBA74"/>
+      <stop offset="50%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#C2410C"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#A1A1AA"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <linearGradient id="greenGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6EE7B7"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <circle cx="400" cy="400" r="300" fill="#0F172A" stroke="url(#orangeMetal)" stroke-width="18"/>
+    <circle cx="400" cy="400" r="255" fill="#111827" stroke="#94A3B8" stroke-opacity="0.8" stroke-width="3"/>
+
+    <g opacity="0.95">
+      <g transform="translate(400 400)">
+        <g>
+          <rect x="-168" y="-42" width="336" height="84" rx="18" fill="url(#steel)"/>
+          <rect x="-42" y="-168" width="84" height="336" rx="18" fill="url(#steel)"/>
+        </g>
+        <g transform="rotate(45)">
+          <rect x="-168" y="-42" width="336" height="84" rx="18" fill="url(#steel)"/>
+          <rect x="-42" y="-168" width="84" height="336" rx="18" fill="url(#steel)"/>
+        </g>
+        <circle r="118" fill="none" stroke="url(#orangeMetal)" stroke-width="28"/>
+        <circle r="68" fill="#0B1220" stroke="#E2E8F0" stroke-width="10"/>
+      </g>
+    </g>
+
+    <g>
+      <path d="M236 560 L266 530 L355 619 L326 648 Z" fill="url(#steel)"/>
+      <path d="M275 610 L370 505 L440 575 L345 680 Z" fill="url(#orangeMetal)"/>
+      <path d="M387 526 L538 375 L590 427 L439 578 Z" fill="url(#steel)"/>
+      <circle cx="520" cy="340" r="35" fill="url(#greenGlow)"/>
+      <path d="M575 300 L598 268 L635 305 L612 336 Z" fill="#E2E8F0" opacity="0.95"/>
+    </g>
+
+    <g transform="translate(400 400)">
+      <g fill="#F8FAFC" opacity="0.9">
+        <rect x="-220" y="-228" width="32" height="60" rx="8"/>
+        <rect x="188" y="-228" width="32" height="60" rx="8"/>
+        <rect x="-220" y="168" width="32" height="60" rx="8"/>
+        <rect x="188" y="168" width="32" height="60" rx="8"/>
+        <rect x="-228" y="-214" width="60" height="32" rx="8" transform="rotate(90)"/>
+        <rect x="168" y="-214" width="60" height="32" rx="8" transform="rotate(90)"/>
+        <rect x="-228" y="182" width="60" height="32" rx="8" transform="rotate(90)"/>
+        <rect x="168" y="182" width="60" height="32" rx="8" transform="rotate(90)"/>
+      </g>
+    </g>
+
+    <g transform="translate(400 710)">
+      <text x="0" y="0" text-anchor="middle" font-size="68" font-weight="800" letter-spacing="6" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif">AUTO PEÇAS</text>
+      <line x1="-210" y1="18" x2="-72" y2="18" stroke="url(#orangeMetal)" stroke-width="8" stroke-linecap="round"/>
+      <line x1="72" y1="18" x2="210" y2="18" stroke="url(#orangeMetal)" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="0" cy="18" r="11" fill="#10B981"/>
+    </g>
+  </g>
+</svg>
